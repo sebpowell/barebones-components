@@ -1,0 +1,11 @@
+{
+  "name": "barebones-components",
+  "homepage": "https://github.com/sebpowell/barebones-components",
+  "authors": [
+    "Sebastien Powell <sebastienpowell@gmail.com>"
+  ],
+  "description": "",
+  "main": "_base.sass",
+  "moduleType": [],
+  "license": "MIT"
+}
