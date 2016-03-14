@@ -1,0 +1,70 @@
+$buttons: (
+	border-radius: 3px,
+	font-family: Times, 
+	sizes: #{12px, 14px, 24px}
+	text-transform: uppercase, 
+	letter-spacing: 0.01em,
+	box-shadow: 0 0 0 5px,
+);
+
+=fade-in(1s)
+	transform: translateY(-10px)
+	&:hover
+		transform: translate(-20px)
+
+$tabs: (
+	)
+
+$card: (
+	border-radius: 3px,
+	shadow: 
+	border: 
+	background: 
+	text-transform: uppercase, 
+	letter-spacing: 0.01em,
+	box-shadow: 0 0 0 5px,
+);
+
+$tooltip: (
+	backgroundColor: black, 
+	tailSize: 20px,
+	fontSize: 12px,
+	padding: 12px,
+	borderRadius: 3px,
+	effect: fa-dein,
+); 
+
+$forms: (
+	borderRadius: 3px,
+	border: 2px solid black,
+	borderHover: red,
+	placeholder: colors(greyscale, light),
+	color: black, 
+	focus: black, 
+);
+
+$modal: (
+	effect: popdown,
+	borderRadius: 3px,
+	shadow: 20px,
+	backdrop: rgba(00,00,00,0.2);
+);
+
+$dropdown: (
+	fontSize: 12px,
+	shadow: none, 
+	background: white, 
+	border-radius: 0 0 3px 3px,
+	color: red,
+	hoverColor: red,
+	tailSize: 12px,
+	border: 0,
+	seperator: 12px,
+	effect: fade-in,
+);
+
+
+
+Bullets
+
+Hamburger
