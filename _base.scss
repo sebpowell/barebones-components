@@ -1,0 +1,15 @@
+$components: (
+	"backdrop",
+	"buttons",
+	"cards",
+	"dropdown",
+	"forms",
+	"modals",
+	"numbered-list",
+	"tabs",
+	"tooltip"
+);
+
+@each $component in $components {
+	@import "_LIB/#{$component}";
+}

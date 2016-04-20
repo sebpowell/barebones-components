@@ -1,70 +1,62 @@
-$buttons: (
-	border-radius: 3px,
-	font-family: Times, 
-	sizes: #{12px, 14px, 24px}
-	text-transform: uppercase, 
-	letter-spacing: 0.01em,
-	box-shadow: 0 0 0 5px,
+
+$backdrop: (
+	color: rgba(00, 00, 00, 0.8),
+	transition: all .5s
 );
 
-=fade-in(1s)
-	transform: translateY(-10px)
-	&:hover
-		transform: translate(-20px)
+$form-user: (
+  // border-radius: 3px,
+  // color: blue,
+  // colorOut: orange,
+  // placeholder: red,
+  // placeholderFocus: orange,
+  // background: beige,
+  // outline: none, 
+  // box-shadow: none,
 
-$tabs: (
-	)
-
-$card: (
-	border-radius: 3px,
-	shadow: 
-	border: 
-	background: 
-	text-transform: uppercase, 
-	letter-spacing: 0.01em,
-	box-shadow: 0 0 0 5px,
 );
 
-$tooltip: (
-	backgroundColor: black, 
-	tailSize: 20px,
-	fontSize: 12px,
-	padding: 12px,
-	borderRadius: 3px,
-	effect: fa-dein,
-); 
+$buttons-user: (
 
-$forms: (
-	borderRadius: 3px,
-	border: 2px solid black,
-	borderHover: red,
-	placeholder: colors(greyscale, light),
-	color: black, 
-	focus: black, 
+
 );
 
-$modal: (
-	effect: popdown,
-	borderRadius: 3px,
-	shadow: 20px,
-	backdrop: rgba(00,00,00,0.2);
+$card-user: (
+
 );
 
-$dropdown: (
-	fontSize: 12px,
-	shadow: none, 
-	background: white, 
-	border-radius: 0 0 3px 3px,
-	color: red,
-	hoverColor: red,
-	tailSize: 12px,
+$dropdown-user: ();
+
+$tooltip-user: (
+
+	background: black,
+  text-color: white,
+	border-radius: 5px,
 	border: 0,
-	seperator: 12px,
-	effect: fade-in,
+	shadow: 0
+);
+
+$tables-user: (
+	stripes: colors(greyscale, 100),
 );
 
 
+// $card: (
+// 	border-radius: 3px,
+// 	shadow:
+// 	border:
+// 	background:
+// 	text-transform: uppercase,
+// 	letter-spacing: 0.01em,
+// 	box-shadow: 0 0 0 5px,
+// );
 
-Bullets
 
-Hamburger
+
+
+// $modal: (
+// 	effect: popdown,
+// 	borderRadius: 3px,
+// 	shadow: 20px,
+// 	backdrop: rgba(00,00,00,0.2);
+// );
